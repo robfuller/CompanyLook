@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-CompanyLookup::Application.config.secret_token = 'e70a60d6a57a9a0da50790b94d2060e8c4da0c64ead1039e32626823e695d06ffdb4c54f6431058c1addcc84b105fb885900767cddaee173c48c59c75dc584dd'
+CompanyLookup::Application.config.secret_token = '360544f20b8952e3ff320496e585a4329358b13264e15baa9bda750231ac1b6e6c27c24353f52eef8c33458f98179502fdcd2b64cd5922728f4aa33a9e97b1ea'
