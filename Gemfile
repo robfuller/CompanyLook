@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'sass-rails', "~> 3.1.0.rc"
 gem 'coffee-script'
 gem 'uglifier'
-gem 'json_pure'
+
 gem 'jquery-rails'
 
 # Use unicorn as the web server
@@ -25,10 +25,12 @@ gem 'jquery-rails'
 
 group :test, :development do
   # Pretty printed test output
+  gem 'json_pure'
   gem 'turn', :require => false
 end
 
 group :production do
+gem 'json'
 #  gem 'therubyracer-heroku', '0.8.1.pre3'
  # gem 'pg'
 end
