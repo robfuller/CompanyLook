@@ -14,6 +14,7 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+gem 'json_pure'
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -25,12 +26,10 @@ gem 'jquery-rails'
 
 group :test, :development do
   # Pretty printed test output
-  gem 'json_pure'
   gem 'turn', :require => false
 end
 
 group :production do
-gem 'json'
 #  gem 'therubyracer-heroku', '0.8.1.pre3'
  # gem 'pg'
 end
