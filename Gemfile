@@ -12,4 +12,7 @@ gem 'jquery-rails'
 gem 'json_pure'
 
 
+group :production
+	gem 'pg'
+end
 
