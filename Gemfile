@@ -1,9 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '3.1.0.rc1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+
+gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -18,7 +20,7 @@ gem 'rails', '3.1.0.rc4'
 # Bundle the extra gems:
 # gem 'bj'
 gem 'nokogiri'
-gem 'json_pure'
+gem 'json'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
@@ -35,6 +37,6 @@ end
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
- group :development, :test do
-	gem 'sqlite3'
- end
+# group :development, :test do
+#   gem 'webrat'
+# end
