@@ -27,7 +27,6 @@ gem 'uglifier'
 gem 'jquery-rails'
 
 group :production do
-  gem 'therubyracer-heroku', '0.8.1pre3'
   gem 'pg'
 end
 
