@@ -21,10 +21,10 @@ gem 'sqlite3'
 # gem 'bj'
 gem 'nokogiri'
 gem 'json'
-gem 'sass'
+#gem 'sass'
 #gem 'coffee-script'
 gem 'uglifier'
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
 group :production do
   gem 'pg'
