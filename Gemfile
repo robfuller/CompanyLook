@@ -25,7 +25,7 @@ gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
-gem 'therubyracer-heroku', '0.8.1.pre3'
+gem "therubyracer-heroku", "~> 0.8.1.pre3"
 
 group :production do
   gem 'pg'
