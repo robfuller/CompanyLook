@@ -22,7 +22,7 @@ gem 'sqlite3'
 gem 'nokogiri'
 gem 'json'
 gem 'sass'
-gem 'coffee-script'
+#gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
 
